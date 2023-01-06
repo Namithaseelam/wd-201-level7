@@ -5,9 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-       
-        "test": "jest",
-        "prepare": "husky install"
+        "test": "jest"
     },
     "lint-staged": {
         "*.js": [
