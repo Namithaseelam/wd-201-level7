@@ -42,7 +42,6 @@ module.exports = (sequelize, DataTypes) => {
         order: [["id", "ASC"]],
       });
     }
-    //sample
     static dueLater() {
       return this.findAll({
         where: {
@@ -54,7 +53,6 @@ module.exports = (sequelize, DataTypes) => {
         order: [["id", "ASC"]],
       });
     }
-    // test smm
 
     static completedItems() {
       return this.findAll({
