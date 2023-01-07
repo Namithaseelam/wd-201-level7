@@ -53,6 +53,7 @@ module.exports = (sequelize, DataTypes) => {
         order: [["id", "ASC"]],
       });
     }
+    // test smm
 
     static completedItems() {
       return this.findAll({
