@@ -42,6 +42,7 @@ module.exports = (sequelize, DataTypes) => {
         order: [["id", "ASC"]],
       });
     }
+    //sample
     static dueLater() {
       return this.findAll({
         where: {
